@@ -1,4 +1,5 @@
 CC = pdflatex
+BB = bibtex
 
 
 all: Template.pdf
@@ -7,7 +8,7 @@ all: Template.pdf
 
 
 %.pdf : %.tex
-	$(CC) $< && $(CC) $< && open $@
+	$(CC) $* && $(BB) $* && $(CC) $* && $(CC) $* && open $@
 
 
 
