@@ -53,7 +53,7 @@
   \begin{changemargin}{0.0cm}{0.0cm}
   \vspace*{-0.4in}
   \hspace*{-0.36in}
-  \begin{tabular}{| p{0.65\paperwidth} | p{0.15\paperwidth} |}
+  \begin{tabular}{| p{0.62\paperwidth} | p{0.18\paperwidth} |}
     \hline
     \parbox{\linewidth}{
       \vspace*{0.15cm}
@@ -62,7 +62,7 @@
       BROOKHAVEN NATIONAL LABORATORY
       \vspace*{0.15cm}
     }
-    & {\sc number}: {\bf \large \@notenumber}\\
+    & \begin{tabular}{l}{\sc number:}\\ {\sc \@notenumber}\end{tabular}\\
     \hline
     \parbox{\linewidth}{
       \vspace*{0.15cm}
